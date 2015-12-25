@@ -8,10 +8,6 @@
  * Controller of the blizFrontendApp
  */
 angular.module('blizFrontendApp')
-  .controller('AboutCtrl', function () {
-    this.awesomeThings = [
-      'HTML5 Boilerplate',
-      'AngularJS',
-      'Karma'
-    ];
+  .controller('aboutCtrl', function () {
+
   });
