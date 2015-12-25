@@ -1,17 +1,17 @@
 (function () {
-  'use strict';
-  angular
-      .module('blizFrontendApp')
-      .controller('mainCtrl', mainCtrl);
+    'use strict';
+    angular
+        .module('blizFrontendApp')
+        .controller('mainCtrl', mainCtrl);
 
-  mainCtrl.$inject = ['$scope'];
+    mainCtrl.$inject = ['$scope'];
 
 
-  function mainCtrl($scope){
-    $scope.init = init;
+    function mainCtrl($scope){
+        $scope.init = init;
 
-    function init(){
+        function init(){
 
+        }
     }
-  }
 })();
