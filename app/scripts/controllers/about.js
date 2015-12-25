@@ -1,13 +1,17 @@
-'use strict';
+(function () {
+  'use strict';
+  angular
+      .module('blizFrontendApp')
+      .controller('aboutCtrl', aboutCtrl);
 
-/**
- * @ngdoc function
- * @name blizFrontendApp.controller:AboutCtrl
- * @description
- * # AboutCtrl
- * Controller of the blizFrontendApp
- */
-angular.module('blizFrontendApp')
-  .controller('aboutCtrl', function () {
+  aboutCtrl.$inject = ['$scope'];
 
-  });
+
+  function aboutCtrl($scope){
+    $scope.init = init;
+
+    function init(){
+
+    }
+  }
+})();

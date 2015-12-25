@@ -42,8 +42,7 @@ module.exports = function (grunt) {
       },
       server: {
         files: {
-          '.tmp/index.html': '<%= yeoman.app %>/index.html',
-          'app/index.html': '<%= yeoman.app %>/index.html'
+          '.tmp/index.html': '<%= yeoman.app %>/index.html'
         }
       },
       dist: {

@@ -2,12 +2,12 @@
   'use strict';
   angular
       .module('blizFrontendApp')
-      .controller('mainCtrl', mainCtrl);
+      .controller('contactCtrl', contactCtrl);
 
-  mainCtrl.$inject = ['$scope'];
+  contactCtrl.$inject = ['$scope'];
 
 
-  function mainCtrl($scope){
+  function contactCtrl($scope){
     $scope.init = init;
 
     function init(){
