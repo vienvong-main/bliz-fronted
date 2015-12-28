@@ -4,14 +4,14 @@
         .module('blizFrontendApp')
         .controller('contactCtrl', contactCtrl);
 
-    contactCtrl.$inject = ['$scope'];
+    contactCtrl.$inject = ['$scope', 'constants'];
 
 
-    function contactCtrl($scope){
+    function contactCtrl($scope, constants){
         $scope.init = init;
 
         function init(){
-
+            console.log(constants);
         }
     }
 })();

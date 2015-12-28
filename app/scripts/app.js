@@ -2,12 +2,7 @@
     'use strict';
     angular
         .module('blizFrontendApp', [
-            'ngAnimate',
-            'ngCookies',
-            'ngResource',
-            'ngRoute',
-            'ngSanitize',
-            'ngTouch'
+            'app.core'
         ])
         .config(function ($routeProvider) {
             $routeProvider
